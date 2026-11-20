@@ -1,0 +1,201 @@
+{
+  "video": "rosetta-stone",
+  "updated": "2026-11-20",
+  "assets": [
+    {
+      "file": "images/rosetta/stone.jpg",
+      "type": "image",
+      "title": "Розеттский камень, вид спереди",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creator": "Hans Hillewaert",
+      "credit": "Британский музей · EA24 · Hans Hillewaert / CC BY-SA 4.0",
+      "used_in": [
+        "план 1"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция.",
+      "object": {
+        "accession": "EA24",
+        "date": "196 г. до н. э.",
+        "findspot": "форт Жюльен у Рашида"
+      }
+    },
+    {
+      "file": "images/rosetta/fort.jpg",
+      "type": "image",
+      "title": "Форт Жюльен, гравюра из издания 1803 года",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Fort_Julien_with_an_Egyptian_Boat.jpg",
+      "license": "Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "creator": "Уильям Уиттман (издание)",
+      "credit": "Гравюра из книги Уильяма Уиттмана · 1803 / PD",
+      "used_in": [
+        "план 2"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция."
+    },
+    {
+      "file": "src/videos/rosetta-stone/coastline.ts",
+      "type": "data",
+      "title": "Береговая линия, 1:110m Land",
+      "source": "Natural Earth",
+      "url": "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/",
+      "license": "Public Domain",
+      "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "credit": "Схема · береговая линия Natural Earth / PD",
+      "used_in": [
+        "план 3"
+      ],
+      "modifications": "Региональная выборка и проекция."
+    },
+    {
+      "file": "images/rosetta/side.jpg",
+      "type": "image",
+      "title": "Розеттский камень, вид сбоку",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Rosetta_Stone_%28Front_Right%29_-_British_Museum.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "creator": "Andres Rueda",
+      "credit": "Британский музей · EA24 · Andres Rueda / CC BY 2.0",
+      "used_in": [
+        "план 4"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция.",
+      "object": {
+        "accession": "EA24",
+        "date": "196 г. до н. э.",
+        "findspot": "форт Жюльен у Рашида"
+      }
+    },
+    {
+      "file": "images/rosetta/detail.jpg",
+      "type": "image",
+      "title": "Розеттский камень, фрагмент",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Detail_of_Rosetta_Stone.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creator": "ProtoplasmaKid",
+      "credit": "Британский музей · EA24 · ProtoplasmaKid / CC BY-SA 4.0",
+      "used_in": [
+        "план 6"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция.",
+      "object": {
+        "accession": "EA24",
+        "date": "196 г. до н. э.",
+        "findspot": "форт Жюльен у Рашида"
+      }
+    },
+    {
+      "file": "images/rosetta/bw.jpg",
+      "type": "image",
+      "title": "Розеттский камень, историческое изображение",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone_BW.jpeg",
+      "license": "Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "creator": "Автор неизвестен",
+      "credit": "Британский музей · EA24 · историческое изображение / PD",
+      "used_in": [
+        "план 7"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция.",
+      "object": {
+        "accession": "EA24",
+        "date": "196 г. до н. э.",
+        "findspot": "форт Жюльен у Рашида"
+      }
+    },
+    {
+      "file": "images/rosetta/print.jpg",
+      "type": "image",
+      "title": "Оттиск Розеттского камня в музее Шампольона",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Estampage_de_la_Pierre_de_Rosette_%28Mus%C3%A9e_Champollion%29.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creator": "Julien Peytard",
+      "credit": "Музей Шампольона · Julien Peytard / CC BY-SA 4.0",
+      "used_in": [
+        "план 8"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция."
+    },
+    {
+      "file": "images/rosetta/young.jpg",
+      "type": "image",
+      "title": "Портрет Томаса Юнга, NPG 1899D7714",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Thomas_Young_%28scientist%29.jpg",
+      "license": "Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "creator": "Генри Адлард",
+      "credit": "Генри Адлард · National Portrait Gallery, NPG 1899D7714 / PD",
+      "used_in": [
+        "план 10"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция."
+    },
+    {
+      "file": "images/rosetta/champ.jpg",
+      "type": "image",
+      "title": "Портрет Жана-Франсуа Шампольона из издания 1906 года",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Champollion.jpg",
+      "license": "Public Domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "creator": "Автор изображения неизвестен",
+      "credit": "Портрет из книги Гермины Хартлебен · 1906 / PD",
+      "used_in": [
+        "план 12"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция."
+    },
+    {
+      "file": "footage/rosetta/hieroglyphs.mp4",
+      "type": "video",
+      "title": "Hieroglyphs on Wall",
+      "source": "Pexels",
+      "url": "https://www.pexels.com/video/hieroglyphs-on-wall-11276522/",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "creator": "Артём Старшинов",
+      "credit": "Артём Старшинов / Pexels License",
+      "used_in": [
+        "план 14"
+      ],
+      "modifications": "Замедление, кадрирование и цветокоррекция."
+    },
+    {
+      "file": "images/rosetta/boy.jpg",
+      "type": "image",
+      "title": "Посетители у Розеттского камня",
+      "source": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone_2014_01.JPG",
+      "license": "CC BY-SA 3.0 PL",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/pl/",
+      "creator": "Adrian Grycuk",
+      "credit": "Британский музей · EA24 · Adrian Grycuk / CC BY-SA 3.0 PL",
+      "used_in": [
+        "план 15"
+      ],
+      "modifications": "Масштабирование, кадрирование и цветокоррекция.",
+      "object": {
+        "accession": "EA24",
+        "date": "196 г. до н. э.",
+        "findspot": "форт Жюльен у Рашида"
+      }
+    }
+  ],
+  "facts": {
+    "sources": [
+      "https://www.britishmuseum.org/collection/object/Y_EA24",
+      "https://www.britishmuseum.org/blog/everything-you-ever-wanted-know-about-rosetta-stone"
+    ]
+  }
+}
