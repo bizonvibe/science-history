@@ -1,0 +1,315 @@
+{
+  "video": "cuneiform",
+  "assets": [
+    {
+      "file": "images/cuneiform/met-329081-proto-tablet.png",
+      "type": "image",
+      "title": "Proto-Cuneiform tablet with seal impressions: administrative account of barley distribution with cylinder seal impression of a male figure, hunting dogs, and boars",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/329081",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP293243.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Sumerian",
+      "credit": "The Metropolitan Museum of Art, 1988.433.1",
+      "license_status": "ok",
+      "object": {
+        "accession": "1988.433.1",
+        "date": "ca. 3100–2900 BCE",
+        "culture": "Sumerian",
+        "period": "Jemdet Nasr",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 2 (0:04–0:08)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-327384-barley-account.png",
+      "type": "image",
+      "title": "Cuneiform tablet: administrative account concerning the distribution of barley and emmer",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/327384",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP297593.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Sumerian",
+      "credit": "The Metropolitan Museum of Art, 1988.433.2",
+      "license_status": "ok",
+      "object": {
+        "accession": "1988.433.2",
+        "date": "ca. 3100–2900 BCE",
+        "culture": "Sumerian",
+        "period": "Jemdet Nasr",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 3 фон, план 4 (0:08–0:16)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-321878-student-exercise.jpg",
+      "type": "image",
+      "title": "Cuneiform tablet: student exercise tablet",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/321878",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP360672.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Babylonian",
+      "credit": "The Metropolitan Museum of Art, 86.11.251",
+      "license_status": "ok",
+      "object": {
+        "accession": "86.11.251",
+        "date": "ca. 20th–16th century BCE",
+        "culture": "Babylonian",
+        "period": "Old Babylonian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "уменьшено до ≤ 2400 px",
+      "used_in": [
+        "план 7 (0:24–0:28)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-324587-multiplication.png",
+      "type": "image",
+      "title": "Cuneiform tablet: multiplication table",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/324587",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP-23665-001.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Babylonian",
+      "credit": "The Metropolitan Museum of Art, 57.16.2",
+      "license_status": "ok",
+      "object": {
+        "accession": "57.16.2",
+        "date": "ca. 20th–16th century BCE",
+        "culture": "Babylonian",
+        "period": "Old Babylonian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 8 (0:28–0:32)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-321999-atrahasis.png",
+      "type": "image",
+      "title": "Cuneiform tablet: Atra-hasis, Babylonian flood myth",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/321999",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP-16190-011.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Babylonian or Achaemenid",
+      "credit": "The Metropolitan Museum of Art, 86.11.378a",
+      "license_status": "ok",
+      "object": {
+        "accession": "86.11.378a",
+        "date": "ca. 7th–6th century BCE",
+        "culture": "Babylonian or Achaemenid",
+        "period": "Neo-Babylonian or Achaemenid",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 9 (0:32–0:36)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-321614-nebuchadnezzar-cylinder.png",
+      "type": "image",
+      "title": "Cuneiform cylinder with inscription of Nebuchadnezzar II, describing the rebuilding of Ebabbar, the temple of the sun-god Shamash at Sippar",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/321614",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP-41748-001.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Babylonian",
+      "credit": "The Metropolitan Museum of Art, 85.15",
+      "license_status": "ok",
+      "object": {
+        "accession": "85.15",
+        "date": "ca. 604–562 BCE",
+        "culture": "Babylonian",
+        "period": "Neo-Babylonian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 14 (0:52–0:56)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-325849-private-letter.png",
+      "type": "image",
+      "title": "Cuneiform tablet: private letter",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/325849",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP110638.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Old Assyrian Trading Colony",
+      "credit": "The Metropolitan Museum of Art, 66.245.8",
+      "license_status": "ok",
+      "object": {
+        "accession": "66.245.8",
+        "date": "ca. 20th–19th century BCE",
+        "culture": "Old Assyrian Trading Colony",
+        "period": "Middle Bronze Age–Old Assyrian Trading Colony",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 6 (0:20–0:24)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-321903-balag.jpg",
+      "type": "image",
+      "title": "Cuneiform tablet: balag",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/321903",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/ME86_11_279.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Seleucid or Parthian",
+      "credit": "The Metropolitan Museum of Art, 86.11.279",
+      "license_status": "ok",
+      "object": {
+        "accession": "86.11.279",
+        "date": "ca. 2nd–1st century BCE",
+        "culture": "Seleucid or Parthian",
+        "period": "Seleucid or Parthian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "уменьшено до ≤ 2400 px",
+      "used_in": [
+        "план 13 (0:48–0:52)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-322612-ashurbanipal-relief.jpg",
+      "type": "image",
+      "title": "Relief fragment: Assyrian soldier conducting captives across the water",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/322612",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP-12499-020.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Assyrian",
+      "credit": "The Metropolitan Museum of Art, 32.143.5",
+      "license_status": "ok",
+      "object": {
+        "accession": "32.143.5",
+        "date": "ca. 668–627 BCE",
+        "culture": "Assyrian",
+        "period": "Neo-Assyrian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "уменьшено до ≤ 2400 px",
+      "used_in": [
+        "план 11 (0:40–0:44)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-322622-siege-relief.png",
+      "type": "image",
+      "title": "Relief fragment: siege of a city by Assyrian troops",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/322622",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP-13006-002.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Assyrian",
+      "credit": "The Metropolitan Museum of Art, 32.143.15",
+      "license_status": "ok",
+      "object": {
+        "accession": "32.143.15",
+        "date": "ca. 704–681 BCE",
+        "culture": "Assyrian",
+        "period": "Neo-Assyrian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 12 (0:44–0:48)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-322613-ashurnasirpal-relief.jpg",
+      "type": "image",
+      "title": "Relief panel",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/322613",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP375421.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Assyrian",
+      "credit": "The Metropolitan Museum of Art, 32.143.6",
+      "license_status": "ok",
+      "object": {
+        "accession": "32.143.6",
+        "date": "ca. 883–859 BCE",
+        "culture": "Assyrian",
+        "period": "Neo-Assyrian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "уменьшено до ≤ 2400 px",
+      "used_in": [
+        "план 1 (0:00–0:04)"
+      ]
+    },
+    {
+      "file": "images/cuneiform/met-324015-gudea-cone.png",
+      "type": "image",
+      "title": "Votive cone with cuneiform inscription of Gudea: dedicated when Gudea built the Eninnu temple for the god Ningirsu",
+      "source": "met",
+      "url": "https://www.metmuseum.org/art/collection/search/324015",
+      "original": "https://images.metmuseum.org/CRDImages/an/original/DP-32865-001.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Neo-Sumerian",
+      "credit": "The Metropolitan Museum of Art, 45.90",
+      "license_status": "ok",
+      "object": {
+        "accession": "45.90",
+        "date": "ca. 2090 BCE",
+        "culture": "Neo-Sumerian",
+        "period": "Neo-Sumerian",
+        "findspot": ""
+      },
+      "added": "2026-11-20",
+      "processing": "предмет вырезан из однотонного фона музейного фото (PNG с альфой), уменьшен",
+      "used_in": [
+        "план 10 (0:36–0:40)"
+      ]
+    }
+  ],
+  "updated": "2026-11-20",
+  "facts": {
+    "sources": [
+      "The Met — Ira Spar, «The Origins of Writing» (Heilbrunn Timeline of Art History): https://www.metmuseum.org/essays/the-origins-of-writing",
+      "The Met — карточки предметов (датировки и атрибуции): 1988.433.1, 1988.433.2, 66.245.8, 86.11.251, 57.16.2, 86.11.378a, 45.90, 32.143.5, 32.143.15, 86.11.279, 85.15, 32.143.6",
+      "British Museum — Ashurbanipal Library Project: https://www.britishmuseum.org/research/research_projects/ashurbanipal_library_phase_1.aspx",
+      "H. Hunger, T. de Jong. Almanac W22340a from Uruk: the Latest Datable Cuneiform Tablet // Zeitschrift für Assyriologie 104(2), 2014, 182–194",
+      "Royal Asiatic Society, 1857: проверка дешифровки (Rawlinson, Hincks, Talbot, Oppert; надпись Тиглатпаласара I) — см. The Conversation, «The recovery of cuneiform»: https://theconversation.com/friday-essay-the-recovery-of-cuneiform-the-worlds-oldest-known-writing-82639"
+    ]
+  }
+}
