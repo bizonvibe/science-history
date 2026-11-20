@@ -23,8 +23,8 @@ export const cuneiformConfig: VideoConfig = {
 	cut: 'crossfade',
 	crossfadeFrames: 12,
 	leakAt: [4, 9, 13],
-	// «Удары» на появлении крупных цифр (планы 10, 11, 14: начало = индекс × 120, +8 кадров).
-	extraHits: [9 * 120 + 8, 10 * 120 + 8, 13 * 120 + 8],
+	// «Удары» на появлении крупных цифр (планы 10 и 14: начало = индекс × 120, +8 кадров).
+	extraHits: [9 * 120 + 8, 13 * 120 + 8], // план 11 (тип stat) — удар добавляется сам
 	scenes: [
 		// 1. Заголовок
 		{
@@ -127,18 +127,21 @@ export const cuneiformConfig: VideoConfig = {
 			zoom: [1.0, 1.2],
 			stage: {w: 820, h: 520},
 		}),
-		// 11. Цифра: 30 000 табличек
-		artifact({
-			src: `${IMG}met-322612-ashurbanipal-relief.jpg`,
-			credit: 'The Metropolitan Museum of Art, 32.143.5',
-			side: 'left',
+		// 11. Цифра: 30 000 табличек — рельеф во весь кадр (другая раскладка, чтобы склейка с планом 10 читалась)
+		{
+			type: 'stat',
+			durationInFrames: SHOT,
 			overline: 'Библиотека Ашшурбанапала',
-			big: {value: 30000, prefix: '> ', caption: 'табличек и фрагментов нашли в Ниневии'},
-			label: 'Ассирийский рельеф времён Ашшурбанапала · ок. 668–627 гг. до н. э.',
-			focus: [50, 45],
-			zoom: [1.05, 1.3],
-			stage: {w: 860, h: 940},
-		}),
+			stat: {value: 30000, prefix: '> ', caption: 'табличек и фрагментов нашли в Ниневии'},
+			background: {
+				src: `${IMG}met-322612-ashurbanipal-relief.jpg`,
+				kind: 'image',
+				credit: 'The Metropolitan Museum of Art, 32.143.5 · рельеф, ок. 668–627 гг. до н. э.',
+				zoom: [1.15, 1.35],
+				panX: 60,
+				dim: 0.35,
+			},
+		},
 		// 12. Гибель Ниневии
 		artifact({
 			src: `${IMG}met-322622-siege-relief.png`,
