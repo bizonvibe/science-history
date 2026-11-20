@@ -1,5 +1,5 @@
 import type {CSSProperties, FC} from 'react';
-import {AbsoluteFill, Img, interpolate, OffthreadVideo, staticFile, useCurrentFrame} from 'remotion';
+import {AbsoluteFill, Audio, Img, interpolate, OffthreadVideo, staticFile, useCurrentFrame} from 'remotion';
 import {TemplateVideo} from '../../templates/TemplateVideo';
 import type {VideoConfig} from '../../templates/types';
 import {colors, easeOutExpo, fonts} from '../../theme';
@@ -119,6 +119,8 @@ const ShotView: FC<{shot: Shot; index: number}> = ({shot,index}) => {
   const wide = shot.placement === 'wide';
   const left = shot.placement === 'left';
   const finish = index === shots.length - 1;
+  const chapter = index === 4 || index === 9;
+  const flare = interpolate(frame, [0, 8, 22], [0, 0.48, 0], clamp);
   const textColor = shot.light ? ink : colors.text;
   const textTop = wide ? (finish ? 535 : 570) : 350;
   const panel = shot.placement ? photoLayouts[shot.placement] : undefined;
@@ -149,6 +151,16 @@ const ShotView: FC<{shot: Shot; index: number}> = ({shot,index}) => {
       <div style={{position:'absolute',bottom:91,left:left?965:120,maxWidth:left?825:1340,fontSize:23,fontWeight:700,color:wide?'#f2eadb':textColor,opacity:0.89}}>
         {shot.credit}
       </div>
+      {chapter ? (
+        <>
+          <AbsoluteFill style={{
+            background: 'radial-gradient(ellipse at 14% 50%, #ffdd9f, #cc6728 26%, transparent 69%)',
+            mixBlendMode: 'screen',
+            opacity: flare,
+          }} />
+          <Audio src={staticFile('audio/whoosh.wav')} volume={0.40} />
+        </>
+      ) : null}
       {finish ? <AbsoluteFill style={{background:'#000', opacity:interpolate(frame,[105,119],[0,1],clamp)}} /> : null}
     </AbsoluteFill>
   );
@@ -157,10 +169,9 @@ const ShotView: FC<{shot: Shot; index: number}> = ({shot,index}) => {
 export const rosettaConfig: VideoConfig = {
   id:'RosettaStone',
   music:{src:'audio/ambient.mp3',volume:0.9},
-  sfx:{whoosh:'audio/whoosh.wav', hit:'audio/hit.wav'},
+  sfx:{hit:'audio/hit.wav'},
   cut:'crossfade',
   crossfadeFrames:12,
-  leakAt:[4,9],
   extraHits:[494,1338],
   scenes:shots.map((shot,index) => ({
     type:'custom',
