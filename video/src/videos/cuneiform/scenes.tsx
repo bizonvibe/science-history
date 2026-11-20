@@ -42,6 +42,8 @@ export type ArtifactShotProps = {
 	stage?: {w: number; h: number};
 	tag?: string;
 	tint?: string;
+	/** Где стоит экспонат: справа (по умолчанию) или слева — чередуем, чтобы склейки читались. */
+	side?: 'left' | 'right';
 };
 
 const SPOT = 'radial-gradient(ellipse 50% 50% at 50% 50%, #000 40%, transparent 66%)';
@@ -60,6 +62,7 @@ export const ArtifactShot: React.FC<ArtifactShotProps> = ({
 	stage = {w: 900, h: 860},
 	tag,
 	tint = colors.accent,
+	side = 'right',
 }) => {
 	const frame = useCurrentFrame();
 	const {durationInFrames} = useVideoConfig();
@@ -79,12 +82,12 @@ export const ArtifactShot: React.FC<ArtifactShotProps> = ({
 			<div
 				style={{
 					position: 'absolute',
-					right: 60,
+					...(side === 'right' ? {right: 60} : {left: 60}),
 					top: (1080 - stage.h) / 2,
 					width: stage.w,
 					height: stage.h,
 					opacity: enter,
-					transform: `translateX(${(1 - enter) * 60}px)`,
+					transform: `translateX(${(1 - enter) * (side === 'right' ? 60 : -60)}px)`,
 				}}
 			>
 				<div
@@ -137,7 +140,18 @@ export const ArtifactShot: React.FC<ArtifactShotProps> = ({
 				) : null}
 			</div>
 			{/* Текстовая колонка */}
-			<div style={{position: 'absolute', left: 120, top: 0, bottom: 0, width: 760, display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+			<div
+				style={{
+					position: 'absolute',
+					left: side === 'right' ? 120 : 1920 - 120 - 760,
+					top: 0,
+					bottom: 0,
+					width: 760,
+					display: 'flex',
+					flexDirection: 'column',
+					justifyContent: 'center',
+				}}
+			>
 				<Overline start={4} color={big ? colors.hot : colors.accent}>
 					{overline}
 				</Overline>

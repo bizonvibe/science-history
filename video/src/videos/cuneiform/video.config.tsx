@@ -84,6 +84,7 @@ export const cuneiformConfig: VideoConfig = {
 		artifact({
 			src: `${IMG}met-321878-student-exercise.jpg`,
 			credit: 'The Metropolitan Museum of Art, 86.11.251',
+			side: 'left',
 			overline: 'Школа писцов',
 			caption: 'Писать учились годами',
 			label: 'Ученическое упражнение · ок. XX–XVI вв. до н. э. · Вавилония',
@@ -106,10 +107,11 @@ export const cuneiformConfig: VideoConfig = {
 		artifact({
 			src: `${IMG}met-321999-atrahasis.png`,
 			credit: 'The Metropolitan Museum of Art, 86.11.378a',
+			side: 'left',
 			overline: 'Литература',
 			caption: 'Вавилонский миф о потопе — «Атрахасис»',
 			label: 'Фрагмент таблички · ок. VII–VI вв. до н. э. · Вавилония',
-			focus: [20, 55],
+			focus: [80, 55],
 			zoom: [1.0, 1.18],
 			stage: {w: 760, h: 820},
 			tint: colors.hot,
@@ -129,6 +131,7 @@ export const cuneiformConfig: VideoConfig = {
 		artifact({
 			src: `${IMG}met-322612-ashurbanipal-relief.jpg`,
 			credit: 'The Metropolitan Museum of Art, 32.143.5',
+			side: 'left',
 			overline: 'Библиотека Ашшурбанапала',
 			big: {value: 30000, prefix: '> ', caption: 'табличек и фрагментов нашли в Ниневии'},
 			label: 'Ассирийский рельеф времён Ашшурбанапала · ок. 668–627 гг. до н. э.',
