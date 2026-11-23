@@ -15,6 +15,8 @@
 | **yt-dlp** | скачивание архивной хроники (Internet Archive, NARA) и субтитров референсов — только легальные источники |
 | **scripts/qc_shots.py** | автопроверка монтажа: смена кадра ≤ 4 с, уникальность планов (SSIM ≤ 0.90) |
 | **scripts/find_media.py** | поиск и скачивание с лицензией: музеи открытого доступа (The Met, Cleveland, Art Institute of Chicago — CC0, без ключей), Openverse, Wikimedia, Pexels, музыка (openverse-audio) + запись в манифест вместе с музейной «этикеткой» (номер, датировка, культура) |
+| **scripts/words_check.py** | клише, риторические вопросы, восклицания и длина титров в коде ролика и в сценарии (`docs/09-cinecraft.md`) |
+| **src/components/camera.tsx** | камера 2,5D по ключам с кривой `inertia`, дрейф руки, «световой стол», лупа с подсветкой строки, выноски |
 | **scripts/beats.py** (librosa) | находит ритм музыки и считает длительности планов так, чтобы склейки попадали в сильные доли (≤ 4 с) |
 | **scripts/transcribe.py** (WhisperX) | субтитры по словам с точными таймингами из озвучки → `Caption[]` для `@remotion/captions` (ставится, когда есть голос) |
 | **Openverse audio** (`find_media.py --source openverse-audio`) | бесплатная музыка и звуки CC0 / CC BY (Freesound, Jamendo, ccMixter, Wikimedia) |
@@ -25,6 +27,7 @@
 | Lottie через `@remotion/lottie` | готовые анимированные иконки (по необходимости) |
 
 Идеи и рецепты (подсматривать, не подключать целиком):
+[sarpstar/cinecode](https://github.com/sarpstar/cinecode) — словарь камеры, методика сценария, «жюри», стиль «световой стол» (перенесено в `docs/09-cinecraft.md`; как skill не ставим: three.js из CDN при рендере и хуки на каждый вызов инструмента);
 [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — движения камеры и переходы;
 [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) `motion-showreel` — синхронизация картинки с речью.
 

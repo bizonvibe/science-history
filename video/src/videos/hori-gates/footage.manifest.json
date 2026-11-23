@@ -1,0 +1,189 @@
+{
+  "video": "hori-gates",
+  "assets": [
+    {
+      "file": "images/hori/hori-full.jpg",
+      "type": "image",
+      "title": "Book of the Dead of Hori",
+      "source": "cleveland",
+      "url": "https://clevelandart.org/art/1921.1032",
+      "original": "https://openaccess-cdn.clevelandart.org/1921.1032/1921.1032_full.tif",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Egypt, Third Intermediate (1069–715 BCE), Dynasty 21",
+      "credit": "Cleveland Museum of Art, 1921.1032",
+      "license_status": "ok",
+      "object": {
+        "accession": "1921.1032",
+        "date": "c. 1069–945 BCE",
+        "culture": [
+          "Egypt, Third Intermediate (1069–715 BCE), Dynasty 21"
+        ],
+        "findspot": null
+      },
+      "added": "2026-11-23",
+      "note": "Полный TIFF 5499×931 сконвертирован в JPEG (качество 90) без обработки."
+    },
+    {
+      "file": "images/hori/cma-buiruharmut.jpg",
+      "type": "image",
+      "title": "Book of the Dead of Buiruhar(mut)",
+      "source": "cleveland",
+      "url": "https://clevelandart.org/art/1914.733",
+      "original": "https://openaccess-cdn.clevelandart.org/1914.733/1914.733_print.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Egypt, Third Intermediate (1069–715 BCE), Dynasties 21–22",
+      "credit": "Cleveland Museum of Art, 1914.733",
+      "license_status": "ok",
+      "object": {
+        "accession": "1914.733",
+        "date": "1000–900 BCE",
+        "culture": [
+          "Egypt, Third Intermediate (1069–715 BCE), Dynasties 21–22"
+        ],
+        "findspot": null
+      },
+      "added": "2026-11-23"
+    },
+    {
+      "file": "images/hori/cma-bakenmut.jpg",
+      "type": "image",
+      "title": "Book of the Dead of Bakenmut",
+      "source": "cleveland",
+      "url": "https://clevelandart.org/art/1914.882",
+      "original": "https://openaccess-cdn.clevelandart.org/1914.882/1914.882_print.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Egypt, Third Intermediate (1069–715 BCE), Dynasties 21–22",
+      "credit": "Cleveland Museum of Art, 1914.882",
+      "license_status": "ok",
+      "object": {
+        "accession": "1914.882",
+        "date": "1000–900 BCE",
+        "culture": [
+          "Egypt, Third Intermediate (1069–715 BCE), Dynasties 21–22"
+        ],
+        "findspot": null
+      },
+      "added": "2026-11-23"
+    },
+    {
+      "file": "images/hori/cma-bakenmut-vignette.jpg",
+      "type": "image",
+      "title": "Vignette of the Book of the Dead of Bakenmut",
+      "source": "cleveland",
+      "url": "https://clevelandart.org/art/1914.724",
+      "original": "https://openaccess-cdn.clevelandart.org/1914.724/1914.724_print.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Egypt, Third Intermediate (1069–715 BCE), Dynasties 21–22",
+      "credit": "Cleveland Museum of Art, 1914.724",
+      "license_status": "ok",
+      "object": {
+        "accession": "1914.724",
+        "date": "1000–900 BCE",
+        "culture": [
+          "Egypt, Third Intermediate (1069–715 BCE), Dynasties 21–22"
+        ],
+        "findspot": null
+      },
+      "added": "2026-11-23"
+    },
+    {
+      "file": "images/hori/cma-scribe-medthu.jpg",
+      "type": "image",
+      "title": "Seated Scribe of Medthu",
+      "source": "cleveland",
+      "url": "https://clevelandart.org/art/1920.2004",
+      "original": "https://openaccess-cdn.clevelandart.org/1920.2004/1920.2004_print.jpg",
+      "license": "cc0",
+      "license_url": null,
+      "creator": "Egypt, New Kingdom (1540–1069 BCE), Dynasty 18, reign of Tuthmosis III (1479–1425 BCE)",
+      "credit": "Cleveland Museum of Art, 1920.2004",
+      "license_status": "ok",
+      "object": {
+        "accession": "1920.2004",
+        "date": "c. 1479–1425 BCE",
+        "culture": [
+          "Egypt, New Kingdom (1540–1069 BCE), Dynasty 18, reign of Tuthmosis III (1479–1425 BCE)"
+        ],
+        "findspot": "Eel-Salmiya, opposite Armant"
+      },
+      "added": "2026-11-23"
+    },
+    {
+      "file": "audio/hori/egyptian-discovery.mp3",
+      "type": "audio",
+      "title": "Egyptian Discovery.wav",
+      "source": "openverse-audio",
+      "url": "https://freesound.org/people/gsb1039/sounds/422548",
+      "original": "https://cdn.freesound.org/previews/422/422548_8119198-hq.mp3",
+      "license": "cc0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "gsb1039",
+      "credit": "\"Egyptian Discovery.wav\" by gsb1039 is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "license_status": "ok",
+      "object": null,
+      "added": "2026-11-23"
+    },
+    {
+      "file": "audio/hori/neutral-drone.mp3",
+      "type": "audio",
+      "title": "Neutral ambient drone",
+      "source": "openverse-audio",
+      "url": "https://freesound.org/people/xkeril/sounds/609895",
+      "original": "https://cdn.freesound.org/previews/609/609895_13504080-hq.mp3",
+      "license": "cc0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "xkeril",
+      "credit": "\"Neutral ambient drone\" by xkeril is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "license_status": "ok",
+      "object": null,
+      "added": "2026-11-23"
+    },
+    {
+      "file": "audio/hori/tambura-eb.mp3",
+      "type": "audio",
+      "title": "Tambura_Eb_fat.aiff",
+      "source": "openverse-audio",
+      "url": "https://freesound.org/people/Kaczinski/sounds/506312",
+      "original": "https://cdn.freesound.org/previews/506/506312_408747-hq.mp3",
+      "license": "cc0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "Kaczinski",
+      "credit": "\"Tambura_Eb_fat.aiff\" by Kaczinski is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/.",
+      "license_status": "ok",
+      "object": null,
+      "added": "2026-11-23"
+    },
+    {
+      "file": "audio/hori/hori-music.mp3",
+      "type": "audio",
+      "title": "Сведение подложки: neutral-drone (0–60 с) + tambura-eb (20–80 с, −11 дБ, ФНЧ 2,5 кГц) + Egyptian Discovery с 52 с",
+      "source": "own-mix",
+      "license": "cc0 (исходники)",
+      "credit": "Сведение для этого видео из CC0-записей Freesound",
+      "license_status": "ok"
+    },
+    {
+      "file": "audio/hori/loupe-click.wav",
+      "type": "audio",
+      "title": "щелчок лупы — синтез ffmpeg (команды в scripts/egypt/hori-gates.storyboard.md)",
+      "source": "own",
+      "license": "own",
+      "credit": "собственный",
+      "license_status": "ok"
+    },
+    {
+      "file": "audio/hori/paper.wav",
+      "type": "audio",
+      "title": "шорох папируса — синтез ffmpeg (команды в scripts/egypt/hori-gates.storyboard.md)",
+      "source": "own",
+      "license": "own",
+      "credit": "собственный",
+      "license_status": "ok"
+    }
+  ],
+  "updated": "2026-11-23"
+}

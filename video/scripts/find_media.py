@@ -256,9 +256,17 @@ def cmd_get(a):
     url = r.get('download') or nasa_asset_url(r['id'], a.type)
     out = Path(a.out)
     out.parent.mkdir(parents=True, exist_ok=True)
+    # В URL музеев бывают не-ASCII символы (например «–» в номерах Мет) — экранируем путь.
+    url = urllib.parse.quote(url, safe=':/?&=%#+,;@')
     req = urllib.request.Request(url, headers={'User-Agent': UA})
     with urllib.request.urlopen(req, timeout=120) as resp:
-        out.write_bytes(resp.read())
+        ctype = resp.headers.get('Content-Type', '')
+        body = resp.read()
+    # CDN может вернуть HTML-страницу защиты от ботов вместо файла — такой «файл» не сохраняем.
+    if not ctype.split('/')[0] in ('image', 'video', 'audio') and not ctype.startswith('application/octet-stream'):
+        sys.exit(f'Сервер вернул не медиафайл ({ctype or "без Content-Type"}): {url}\n'
+                 f'Не обходим защиту — ищи этот предмет в другом источнике (Wikimedia, другой музей).')
+    out.write_bytes(body)
     print(f'Скачано: {out} ({out.stat().st_size // 1024} КБ), лицензия: {r["license"]} [{status}]')
     if a.manifest:
         mp = Path(a.manifest)
